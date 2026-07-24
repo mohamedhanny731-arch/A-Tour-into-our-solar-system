@@ -1,0 +1,80 @@
+html{
+  scroll-behavior: smooth;
+}
+
+
+
+body{
+    margin: 0;
+    background: black;
+    color: white;
+    overflow-x: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+canvas {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+}
+
+main{
+  width: 100%;
+}
+
+
+section{
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  width: 35%;
+  margin-left: 55%;
+
+  padding: 35px;
+
+  
+}
+
+header{
+
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.webtitle h1 {
+  font-size: 6rem;
+  letter-spacing: 10px;
+  font-weight: 700;
+}
+.webtitle span {
+  margin-top: 80px;
+  display: block;
+  opacity: .6;
+}
+h1{
+  font-size: 4rem;
+
+}
+
+h2{
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+p{
+  line-height: 1.8;
+  color: #ddd;
+}
+
+section:nth-child(odd){
+  margin-left: 10%;
+}
+
+section:nth-child(even){
+  margin-left: 55%;
+}
