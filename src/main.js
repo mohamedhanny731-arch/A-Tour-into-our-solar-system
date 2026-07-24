@@ -50,7 +50,7 @@ Array(200).fill().forEach(addStar)
 
 
 
-const mmoonn = new THREE.TextureLoader().load('mmoon.jpg');
+const mmoonn = new THREE.TextureLoader().load('/mmoon.jpg');
 
 const moon = new THREE.Mesh(
   new THREE.SphereGeometry(10, 64, 32),
@@ -64,7 +64,7 @@ const moon = new THREE.Mesh(
 moon.position.set(-20, 0, 0);
 
 
-const MMercury = new THREE.TextureLoader().load('MMercury.jpg');
+const MMercury = new THREE.TextureLoader().load('/MMercury.jpg');
 
 
 
@@ -81,7 +81,7 @@ Mercury.position.set(20, -40, 0);
 
 
 
-const Vvenus = new THREE.TextureLoader().load('VVenus.jpg');
+const Vvenus = new THREE.TextureLoader().load('/VVenus.jpg');
 
 const Venus = new THREE.Mesh(
   new THREE.SphereGeometry(10, 64, 32),
@@ -97,7 +97,7 @@ Venus.position.set(-20, -80, 0);
 
 
 
-const EEarth = new THREE.TextureLoader().load('EEarth.jpg');
+const EEarth = new THREE.TextureLoader().load('/EEarth.jpg');
 
 const Earth = new THREE.Mesh(
   new THREE.SphereGeometry(10, 64, 32),
@@ -114,7 +114,7 @@ Earth.position.set(20, -120, 0)
 
 
 
-const MMars = new THREE.TextureLoader().load('MMars.jpg');
+const MMars = new THREE.TextureLoader().load('/MMars.jpg');
 
 const Mars = new THREE.Mesh(
   new THREE.SphereGeometry(10, 64, 32),
@@ -131,7 +131,7 @@ Mars.position.set(-20, -160, 0);
 
 
 
-const JJupiter = new THREE.TextureLoader().load('JJupiter.jpg');
+const JJupiter = new THREE.TextureLoader().load('/JJupiter.jpg');
 
 const Jupiter = new THREE.Mesh(
   new THREE.SphereGeometry(10, 64, 32),
@@ -149,7 +149,7 @@ Jupiter.position.set(20, -200, 0);
 
 
 
-const Ssaturn = new THREE.TextureLoader().load('Ssaturn.jpg');
+const Ssaturn = new THREE.TextureLoader().load('/Ssaturn.jpg');
 
 const Saturn = new THREE.Mesh(
   new THREE.SphereGeometry(10, 64, 32),
@@ -167,7 +167,7 @@ Saturn.position.set(-20, -240, 0);
 
 
 
-const UUranus = new THREE.TextureLoader().load('UUranus.jpg');
+const UUranus = new THREE.TextureLoader().load('/UUranus.jpg');
 
 const Uranus = new THREE.Mesh(
   new THREE.SphereGeometry(10, 64, 32),
@@ -185,7 +185,7 @@ Uranus.position.set(20, -280, 0);
 
 
 
-const NNeptune = new THREE.TextureLoader().load('NNeptune.jpg');
+const NNeptune = new THREE.TextureLoader().load('/NNeptune.jpg');
 
 const Neptune = new THREE.Mesh(
   new THREE.SphereGeometry(10, 64, 32),
